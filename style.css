@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.hero {
+    background: url('river-tubing.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.description, .pricing, .contact, .equipment {
+    margin-bottom: 30px;
+}
+
+
+
+.description p {
+    text-align: center;
+}
+
+.pricing ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.pricing li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.type {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.contact p {
+    text-align: center;
+}
+
+.equipment .items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.equipment .items img {
+    width: 50px;
+    height: auto;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+}
