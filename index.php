@@ -116,13 +116,13 @@
 
         .protection {
             background-color: #ffffff; 
-        padding: 20px; /* Memberikan padding di dalam elemen */
+        padding: 50px; /* Memberikan padding di dalam elemen */
         border-radius: 8px; /* Membuat sudut-sudut elemen melengkung */
         margin: 20px 0; /* Memberikan jarak atas dan bawah */
         }
 
         .protection img {
-            width: 200px;
+            width: 300px;
             height: auto;
         }
 
@@ -154,14 +154,18 @@
     <body>
         <!-- Navbar dengan tombol pemesanan -->
 <div class="navbar">
+    <a class="me-auto" href="">Rivertubing.com</a>
     <a href="#home">Beranda</a>
-    <a href="#destinasi">Destinasi</a>
-    <!-- Tombol pemesanan yang mengarah ke formulir pemesanan -->
+    <!-- Tombol destinasi yang mengarah ke Destinasi -->
+    <a href="destinasi.php">Destinasi</a> 
+     <!-- Tombol pemesanan yang mengarah ke formulir pemesanan -->
     <a href="pemesanan.php">Pemesanan</a> 
+     <!-- Tombol daftar pemesanan yang mengarah ke daftar pemesanan -->
+     <a href="daftar_pemesanan.php">Daftar Pemesanan</a> 
     <div class="search-container">
-        <button class="search-button" onclick="toggleSearch()">🔍</button>
-        <input type="text" class="search-input" placeholder="Ketik untuk mencari...">
+        <input type="text" class="search-input form-control rounded-pill" placeholder="Ketik untuk mencari...">
     </div>
+    
 </div>
 
 
@@ -200,8 +204,10 @@
             line-height: 1.8; /* Spasi antar baris */
             margin: px 0; /* Tambahkan margin di atas dan bawah */
         }
+        
     </style>
     </head>
+    
     <body>
         <div class="content">
             <h2 class=>Deskripsi</h2>
@@ -218,7 +224,7 @@
     </body>
     <hr style="height: 50px; background-color: rgba(51, 51, 51, 0.5); margin-bottom: 20px;">
 
-
+    
         
         <div class="pricing">
             <h3>Biaya Masuk</h3>
@@ -237,13 +243,13 @@
             </div>
         </div>
 
-        <div class="protection">
+        <div class="protection" style="backgroun">
             <h3><br>ALAT<br>
                 <br>PELINDUNG<br>
                 <br>DIRI<br>
                 <br>WAHANA<br></h3>
-            <img src="images/topi.jpeg" alt="Helm">
-            <img src="images/pelampng.jpeg" alt="Pelampung">
+            <img src="images/topi1.jpeg" alt="Helm">
+            <img src="images/rompi1.jpeg" alt="Pelampung">
             <img src="images/baju renang.jpeg" alt="Ban">
             <img src="images/pelindung lutut.jpg" alt="Pelindung Lutut">
         </div>

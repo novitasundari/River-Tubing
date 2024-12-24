@@ -10,7 +10,8 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #bcbdb6a8; /* Latar belakang lebih lembut */
+            background: url('images/bkk.png') no-repeat center center;
+background-size: cover; /* Menjadikan gambar menyesuaikan ukuran */
             position: relative; /* Agar tombol panah bisa diposisikan relatif terhadap body */
         }
 
