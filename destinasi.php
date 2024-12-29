@@ -74,9 +74,50 @@
     }
 
     .content {
-        margin-top: 100px; /* Memberikan jarak dari navbar */
+        margin-top: 50px; /* Memberikan jarak dari navbar */
         padding: 20px;
         text-align: center;
+    }
+
+    .gallery {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+
+    .gallery img {
+        max-height: 150px; /* Tetapkan tinggi maksimum untuk konsistensi */
+        height: auto;
+        width: auto;
+        border: 2px solid #ddd;
+        border-radius: 5px;
+        transition: transform 0.3s ease-in-out; /* Tambahkan transisi untuk efek zoom */
+    }
+
+    .gallery img:hover {
+        border-color: #333;
+        transform: scale(1.1); /* Efek zoom */
+    }
+
+    .thumbnail-gallery {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+
+    .thumbnail-gallery img {
+        max-width: 200px;
+        height: auto;
+        border: 2px solid #ddd;
+        border-radius: 5px;
+        transition: transform 0.3s ease-in-out; /* Tambahkan transisi untuk efek zoom */
+    }
+
+    .thumbnail-gallery img:hover {
+        border-color: #333;
+        transform: scale(1.1); /* Efek zoom */
     }
 
     /* Styling untuk Footer */
@@ -86,11 +127,21 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        color: white;
         text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
     }
 
     .logo-footer img {
         max-height: 100px;
+    }
+
+    img:last-of-type {
+        margin-bottom: 0;
+        display: block;
+    }
+
+    section.content img:last-of-type {
+        margin-bottom: -50px; 
     }
   </style>
 </head>
@@ -110,13 +161,11 @@
     <section id="destinasi" class="content">
         <h2>Wahana Air River Tubing</h2>
         <div class="gallery">
-            <div class="image-slider">
-                <img src="images/atas1.jpeg" alt="Tubing 1">
-                <img src="images/atas2.jpeg" alt="Tubing 2">
-                <img src="images/atas3.jpeg" alt="Tubing 3">
-                <img src="images/atas4.jpeg" alt="Tubing 4">
-                <img src="images/atas5.jpeg" alt="Tubing 5">
-            </div>
+            <img src="images/atas1.jpeg" alt="Tubing 1">
+            <img src="images/atas2.jpeg" alt="Tubing 2">
+            <img src="images/atas3.jpeg" alt="Tubing 3">
+            <img src="images/atas4.jpeg" alt="Tubing 4">
+            <img src="images/atas5.jpeg" alt="Tubing 5">
         </div>
         
         <h3>Gallery</h3>
@@ -126,13 +175,12 @@
             <img src="images/bawah3.jpeg" alt="Group 3">
             <img src="images/bawah4.jpeg" alt="Group 4">
         </div>
+        <img src="images/gambarbesar.jpeg" alt="Gambar besar terakhir">
         
     </section>
-    <img src="images/gambarbesar.jpeg" alt="gambar besar terakhir">
 
     <footer>
-        <div class="logo-footer">
-           
+        <div>
         </div>
     </footer>
 </body>

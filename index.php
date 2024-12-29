@@ -122,9 +122,15 @@
         }
 
         .protection img {
-            width: 300px;
-            height: auto;
-        }
+    width: 300px;
+    height: auto;
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+.protection img:hover {
+    transform: scale(1.2); /* Zoom effect on hover */
+}
+
 
         .footer {
             background: #fcfafa;
@@ -234,7 +240,7 @@
 
         <div class="contact row">
             <div class="col-6">
-                <img src="images/gambar1.png" class="w-75" alt="">
+                <img src="images/asli2.png" class="w-75" alt="">
             </div>
             <div class='col-6'>
                 <h3>Kontak</h3>
@@ -248,10 +254,10 @@
                 <br>PELINDUNG<br>
                 <br>DIRI<br>
                 <br>WAHANA<br></h3>
-            <img src="images/topi1.jpeg" alt="Helm">
-            <img src="images/rompi1.jpeg" alt="Pelampung">
-            <img src="images/baju renang.jpeg" alt="Ban">
-            <img src="images/pelindung lutut.jpg" alt="Pelindung Lutut">
+            <img src="images/asli5.png" alt="Helm">
+            <img src="images/asli4.png" alt="Pelampung">
+            <img src="images/asli7.png" alt="Ban">
+            <img src="images/asli6.png" alt="Pelindung Lutut">
         </div>
         <img src="images/gambar2.png" alt="">
     </div>
