@@ -32,58 +32,29 @@
         color: black;
     }
 
-    .search-container {
-        position: relative;
-    }
     .header {
-            background: url('images/1.jpg') no-repeat center center/cover;  
-            height: 500px;
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-
-        .header h1 {
-            font-family: 'Lora', sans-serif;
-            font-size: 5em;
-            margin: 0;
-        }
-
-        .header h2 {
-            font-size: 3em;
-            margin: 0;
-        }
-        .header p {
-            font-size: 1.5em;
-            margin: 10px 0;
-        }
-
-
-    .search-button {
-        background: none;
-        border: none;
-        color: white;
-        font-size: 1.2em;
-        cursor: pointer;
-        padding: 10px;
+        background: url('images/1.jpg') no-repeat center center/cover;  
+        height: 500px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
-    .search-input {
-        display: none;
-        position: absolute;
-        right: 0;
-        top: 100%;
-        margin-top: 5px;
-        padding: 5px;
-        font-size: 1em;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        width: 200px;
+    .header h1 {
+        font-family: 'Lora', sans-serif;
+        font-size: 5em;
+        margin: 0;
     }
 
-    .search-container:hover .search-input {
-        display: block;
+    .header h2 {
+        font-size: 3em;
+        margin: 0;
+    }
+
+    .header p {
+        font-size: 1.5em;
+        margin: 10px 0;
     }
 
     /* Styling untuk Hero Section */
@@ -107,6 +78,20 @@
         padding: 20px;
         text-align: center;
     }
+
+    /* Styling untuk Footer */
+    footer {
+        background: url('images/asli1.jpeg') no-repeat center center/cover; /* Tambahkan gambar latar */
+        height: 500px; /* Tinggi footer */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+    }
+
+    .logo-footer img {
+        max-height: 100px;
+    }
   </style>
 </head>
 <body>
@@ -116,8 +101,6 @@
         <a href="#destinasi">Destinasi</a>
         <a href="pemesanan.php">Pemesanan</a>
         <a href="daftar_pemesanan.php">Daftar Pemesanan</a> 
-        
-    
     </div>
 
     <section id="home" class="hero">
@@ -143,12 +126,13 @@
             <img src="images/bawah3.jpeg" alt="Group 3">
             <img src="images/bawah4.jpeg" alt="Group 4">
         </div>
-        <img src="images/gambarbesar.jpeg" alt="">
+        
     </section>
+    <img src="images/gambarbesar.jpeg" alt="gambar besar terakhir">
 
     <footer>
         <div class="logo-footer">
-            <img src="cikadongdong-logo.png" alt="Cikadongdong Logo">
+           
         </div>
     </footer>
 </body>
