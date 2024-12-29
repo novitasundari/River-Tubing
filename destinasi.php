@@ -38,7 +38,6 @@
     .header {
             background: url('images/1.jpg') no-repeat center center/cover;  
             height: 500px;
-            color: white;
             text-align: center;
             display: flex;
             flex-direction: column;
@@ -94,7 +93,7 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        background: url('hero-image.jpg') no-repeat center center/cover;
+        background: url('images/curug.jpg') no-repeat center center/cover;
     }
 
     .hero h1 {
